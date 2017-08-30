@@ -1,1 +1,14 @@
 https://computing.ece.vt.edu/~aish/VQA_ICCV2015.pdf
+
+Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh
+{santol, aish, jiasenlu, dbatra, parikh}@vt.edu 
+{memitc, larryz}@microsoft.com
+
+ABSTRACT:
+Get natural language answer from natural language question on an image
+Questions can target complex and parts of an image => more complicated than captioning
+VQA is amenable to automatic evaluation since many open-ended answers contain few words or a fixed set of answers
+Contribution: VQA Dataset(∼0.25M images, ∼0.76M questions and ∼10M answers)
+
+Introduction:
+
