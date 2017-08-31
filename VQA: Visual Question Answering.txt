@@ -11,4 +11,15 @@ VQA is amenable to automatic evaluation since many open-ended answers contain fe
 Contribution: VQA Dataset(∼0.25M images, ∼0.76M questions and ∼10M answers)
 
 Introduction:
+Involves fine-grained recognition, commonsense reasoning, object detection, activity recognition, knowledge base reasoning
+Can give open ended answer or MCQ task to fill in blanks
+Dataset: i) MSCOCO (204721 images depicting diverse/complex scenes effective for eliciting compelling, diverse questions
+         ii) 50000 abstract scenes (helps with the high level reasoning needed by VQA)
+         iii) 760k questions and 1 million answers based on the images
+         
+M. Malinowski and M. Fritz. A Multi-World Approach to Question Answering about Real-World Scenes based on Uncertain Input. NIPS, 2014
+only considers questions whose answers come from a predefined closed world of 16 basic colors or 894 object categories
+
+D. Geman, S. Geman, N. Hallonquist, and L. Younes. A Visual Turing Test for Computer Vision Systems. In PNAS, 2014.
+considers questions generated from templates from a fixed vocabulary of objects, attributes, relationships between objects etc
 
