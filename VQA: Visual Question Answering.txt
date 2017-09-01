@@ -17,9 +17,19 @@ Dataset: i) MSCOCO (204721 images depicting diverse/complex scenes effective for
          ii) 50000 abstract scenes (helps with the high level reasoning needed by VQA)
          iii) 760k questions and 1 million answers based on the images
          
+Related Work:
 M. Malinowski and M. Fritz. A Multi-World Approach to Question Answering about Real-World Scenes based on Uncertain Input. NIPS, 2014
 only considers questions whose answers come from a predefined closed world of 16 basic colors or 894 object categories
 
 D. Geman, S. Geman, N. Hallonquist, and L. Younes. A Visual Turing Test for Computer Vision Systems. In PNAS, 2014.
 considers questions generated from templates from a fixed vocabulary of objects, attributes, relationships between objects etc
 
+K. Tu, M. Meng, M. W. Lee, T. E. Choe, and S. C. Zhu. Joint Video and Text Parsing for Understanding Events and Answering Queries. IEEE
+MultiMedia, 2014
+studied joint parsing of videos and corresponding text to answer queries on two datasets containing 15 video clips each
+
+J. P. Bigham, C. Jayant, H. Ji, G. Little, A. Miller, R. C. Miller, R. Miller, A. Tatarowicz, B. White, S. White, and T. Yeh. VizWiz: Nearly Realtime Answers to Visual Questions. In User Interface Software and Technology, 2010
+uses crowdsourced workers to answer questions about visual content asked by visually-impaired users.
+
+M. Malinowski, M. Rohrbach, and M. Fritz. Ask your neurons: A neuralbased approach to answering questions about images. In ICCV, 2015.
+LSTM question representation is conditioned on the CNN image features at each time step; final LSTM hidden state is used to sequentially decode the answer phrase
