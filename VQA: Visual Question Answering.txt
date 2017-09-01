@@ -33,3 +33,35 @@ uses crowdsourced workers to answer questions about visual content asked by visu
 
 M. Malinowski, M. Rohrbach, and M. Fritz. Ask your neurons: A neuralbased approach to answering questions about images. In ICCV, 2015.
 LSTM question representation is conditioned on the CNN image features at each time step; final LSTM hidden state is used to sequentially decode the answer phrase
+
+Contribution: LSTM question representation and CNN image features computed independently, fused later via element-wise multiplication, and then passed through fully connected layers to generate softmax distribution over output answer classes
+
+X. Lin and D. Parikh. Don’t just listen, use your imagination: Leveraging visual common sense for non-visual tasks. In CVPR, 2015
+generates abstract scenes to capture visual common sense relevant to answering (purely textual) fill-in the-blank and visual paraphrasing questions.
+
+F. Sadeghi, S. K. Kumar Divvala, and A. Farhadi. Viske: Visual knowledge extraction and question answering by visual verification of
+relation phrases. In CVPR, 2015
+R. Vendantam, X. Lin, T. Batra, C. L. Zitnick, and D. Parikh. Learning common sense through visual abstraction. In ICCV, 2015.]
+use visual information to assess the plausibility of common sense assertions.
+
+L. Yu, E. Park, AC Berg, and T. L. Berg. Visual madlibs: Fill-in-theblank description generation and question answering. In ICCV, 2015
+introduced a dataset of 10k images and prompted captions that describe specific aspects of a scene (e.g., individual objects, what will happen next)
+
+H. Gao, J. Mao, J. Zhou, Z. Huang, and A. Yuille. Are you talking to a machine? dataset and methods for multilingual image question
+answering. In NIPS, 2015
+collected questions & answers in Chinese (later translated to English by humans) for COCO images
+ 
+M. Ren, R. Kiros, and R. Zemel. Exploring models and data for image question answering. In NIPS, 2015
+automatically generated four types of questions (object, count, color, location) using COCO captions
+
+ J. Weston, A. Bordes, S. Chopra, and T. Mikolov. Towards AIComplete Question Answering: A Set of Prerequisite Toy Tasks. CoRR,
+abs/1502.05698, 2015.
+synthesized textual descriptions and QA-pairs grounded in a simulation of actors and objects in a fixed set of locations
+
+C. Kong, D. Lin, M. Bansal, R. Urtasun, and S. Fidler. What Are You Talking About? Text-to-Image Coreference. In CVPR, 2014
+V. Ramanathan, A. Joulin, P. Liang, and L. Fei-Fei. Linking People with “Their” Names using Coreference Resolution. In ECCV, 2014.
+Coreference resolution
+
+ S Kazemzadeh, V Ordonez, M Matten, and TL Berg. ReferItGame: Referring to Objects in Photographs of Natural Scenes In EMNLP, 2014
+ M. Mitchell, K. Van Deemter, and E. Reiter. Generating Expressions that Refer to Visible Objects. In HLT-NAACL, 2013
+ generating referring expressions for a particular object in an image that would allow a human to identify which object is being referred
