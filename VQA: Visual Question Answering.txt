@@ -62,6 +62,6 @@ C. Kong, D. Lin, M. Bansal, R. Urtasun, and S. Fidler. What Are You Talking Abou
 V. Ramanathan, A. Joulin, P. Liang, and L. Fei-Fei. Linking People with “Their” Names using Coreference Resolution. In ECCV, 2014.
 Coreference resolution
 
- S Kazemzadeh, V Ordonez, M Matten, and TL Berg. ReferItGame: Referring to Objects in Photographs of Natural Scenes In EMNLP, 2014
- M. Mitchell, K. Van Deemter, and E. Reiter. Generating Expressions that Refer to Visible Objects. In HLT-NAACL, 2013
- generating referring expressions for a particular object in an image that would allow a human to identify which object is being referred
+S Kazemzadeh, V Ordonez, M Matten, and TL Berg. ReferItGame: Referring to Objects in Photographs of Natural Scenes In EMNLP, 2014
+M. Mitchell, K. Van Deemter, and E. Reiter. Generating Expressions that Refer to Visible Objects. In HLT-NAACL, 2013
+generating referring expressions for a particular object in an image that would allow a human to identify which object is being referred
